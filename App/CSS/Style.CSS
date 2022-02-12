@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* css varaibles */
+
+:root{
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --VerDarkBlueMB: hsl(217, 54%, 11%);
+    --VeryDarkBlueCB: hsl(216, 50%, 16%);
+    --VeryDarkBlueLine: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+body{
+     background-color: var(--VerDarkBlueMB); 
+
+    color:var(--white);
+   
+}
+
+.section{
+   
+         /* background-color: var(--VerDarkBlueMB);
+        color:var(--white);  */
+
+        max-width: 300px;
+        margin: 0 auto;
+        background-color: var(--VeryDarkBlueCB);
+        padding: 32px;
+        border-radius: 10px;
+}
+
+/* .text{
+    background-color: rgb(128, 0, 43);
+
+} */
+
+.firstImage{
+    width: 300px;
+    border-radius:  10px;
+
+}
+.firstdiv{ 
+    padding-top: 35px;
+}
+.firstH2{
+    padding-bottom: 30px;
+}
+.firstp{
+    padding-bottom: 30px;
+    color: var(--SoftBlue);
+
+    
+}
+.firstH2:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+    font-size: 25px;
+
+}
+.h2:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+
+}
+.h3:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.seconddiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    color: var(--SoftBlue);
+}
+.thirddiv{
+   display: flex;
+   gap: 10px;
+   align-items: center; 
+  }
+.parent{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+    border-bottom: 1px var(--VeryDarkBlueLine)
+    solid;
+}
+
+
+.parent2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.parent2 img{
+    width: 40px;
+    border: white;
+    border: solid 1px;     
+    border-radius: 50px; 
+}
+.span{
+    color:var(--SoftBlue)
+}
+ /* .image >img{
+    width: 500px;
+}  */
